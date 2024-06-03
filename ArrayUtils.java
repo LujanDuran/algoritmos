@@ -20,6 +20,8 @@ public class ArrayUtils
                 return true;
             }
         return false;
+        assert i >= -1 && indice < arreglo.length;
+        assert i == -1 || arreglo[i] == elem;
     }
     
     /**
